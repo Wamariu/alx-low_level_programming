@@ -13,9 +13,6 @@ int main(void)
 		while (d <= 'z')
 			putchar(d);
 			a++;
-	}
-	putchar('\n');
-	{
 		while (x <= 'Z')
 			putchar(x);
 			x++;
