@@ -24,11 +24,11 @@ int main(void)
 	char less[] = "and is less than 6 and not 0";
 
 	if (n > 5)
-		printf(("%s\n", last) n("%s\n", is)("%s\n", greater));
+		printf(("%s\n", last)("%i\n", n)("%s\n", is)("%s\n", greater));
 	else if (n == 0)
-		printf(("%s\n", last) n("%s\n", is)("%s\n", equal));
+		printf(("%s\n", last)("%i\n", n)("%s\n", is)("%s\n", equal));
 	else
-		printf(("%s\n", last) n("%s\n", is)("%s\n", less));
+		printf(("%s\n", last)("%i\n", n)("%s\n", is)("%s\n", less));
 	return (0);
 
 }
