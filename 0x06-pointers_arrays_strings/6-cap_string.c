@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * cap_string - capitalizes all words of a string
- * @c: string
- * Return: c
+ * @str: string
+ * Return: str
  */
-char *cap_string(char *c)
+char *cap_string(char *str)
 {
 	int i, c;
 	int trigger;
