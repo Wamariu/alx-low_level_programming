@@ -28,6 +28,6 @@ int main(int argc, char *argv[])
 			}
 		}
 	}
-	print("%d\n", total);
+	printf("%d\n", total);
 	return (0);
 }

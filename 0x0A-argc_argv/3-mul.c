@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	(void) argv;
+	(void) argc;
 
 	if (argv[1] && argv[2])
 	{
