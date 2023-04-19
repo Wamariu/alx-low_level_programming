@@ -7,7 +7,7 @@
  * @argv: string of arguements in an array
  * Return: 0
  */
-int main(argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int a, b;
 	int (*o)(int, int);
