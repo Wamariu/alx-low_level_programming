@@ -36,7 +36,7 @@ void _printfloat(va_list list)
  */
 void _printint(va_list list)
 {
-	printf("%d", va_ar(list, int));
+	printf("%d", va_arg(list, int));
 }
 /**
  * print_all - prints anything
