@@ -1,6 +1,7 @@
 #include "lists.h"
 #include <string.h>
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * add_node - add a new node at beginning of list
  * @head: double pointer to head
