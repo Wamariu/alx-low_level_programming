@@ -23,7 +23,7 @@ listint_t *find_listint_loop(listint_t *head)
 			currentf = currentf->next->next;
 		else
 			return (NULL);
-	} while (current != currents);
+	} while (currentf != currents);
 
 	currents = head;
 	while (currentf != currents)
